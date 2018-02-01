@@ -4,7 +4,7 @@ import datetime
 
 class MorseStation:
     # preamble True enable the internal preable
-    def __init__(self, frequency=1000, wpm=60, timeunit=1.2, volume=1, preamble=False, spacing=5):
+    def __init__(self, frequency=1000, wpm=18, timeunit=1.2, volume=1, preamble=False, spacing=5):
         self.timeunit = timeunit
         self.wpm = wpm
         self.frequency = frequency
