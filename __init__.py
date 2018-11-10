@@ -1,5 +1,5 @@
 from bleeps import Bleeps
-from KlassiKrypto import Morse
+from morse import Morse
 import datetime
 
 class MorseStation:
